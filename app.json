@@ -1,7 +1,16 @@
 {
+  "name": "rockethelp",
+  "displayName": "rockethelp",
   "expo": {
     "name": "rockethelp",
     "slug": "rockethelp",
+    "scheme": "rockethelp",
+    "icon": "./assets/logo.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#202024"
+    },
     "version": "1.0.0",
     "assetBundlePatterns": [
       "**/*"
@@ -11,7 +20,8 @@
     ],
     "android": {
       "package": "com.rockethelp",
-      "googleServicesFile": "./google-services.json"
+      "googleServicesFile": "./google-services.json",
+      "versionCode": 1
     },
     "ios": {
       "bundleIdentifier": "com.rockethelp",

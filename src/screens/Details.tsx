@@ -111,7 +111,7 @@ export function Details() {
             ml={2}
             textTransform='uppercase'
           >
-            {order.status === 'closed' ? 'finalizado' : 'em ndamento'}
+            {order.status === 'closed' ? 'finalizado' : 'em andamento'}
           </Text>
         </HStack>
 
